@@ -41,35 +41,41 @@
 		<dependency>
 			<groupId>pentaho-kettle</groupId>
 			<artifactId>kettle-core</artifactId>
-			<version>5.0.0.1</version>
+			<version>9.0.0.0-423</version>
 		</dependency>
 		<dependency>
 			<groupId>pentaho-kettle</groupId>
 			<artifactId>kettle-dbdialog</artifactId>
-			<version>5.0.0.1</version>
+			<version>9.0.0.0-423</version>
 		</dependency>
 		<dependency>
 			<groupId>pentaho-kettle</groupId>
 			<artifactId>kettle-engine</artifactId>
-			<version>5.0.0.1</version>
+			<version>9.0.0.0-423</version>
 		</dependency>
 		<dependency>
 			<groupId>pentaho-kettle</groupId>
 			<artifactId>kettle-ui-swt</artifactId>
-			<version>5.0.0.1</version>
+			<version>9.0.0.0-423</version>
 		</dependency>
 		<dependency>
-			<groupId>pentaho-kettle</groupId>
-			<artifactId>kettle5-log4j-plugin</artifactId>
-			<version>5.0.0.1</version>
+			<groupId>org.pentaho.di.plugins</groupId>
+			<artifactId>kettle-log4j-core</artifactId>
+			<version>9.0.0.0-423</version>
+		</dependency>		
+		<dependency>
+			<groupId>pentaho</groupId>
+			<artifactId>pentaho-mongo-utils</artifactId>
+			<version>9.0.0.0-423</version>
 		</dependency>
 
-		<dependency>
+		<!-- <dependency>
 			<groupId>org.codehaus.janino</groupId>
 			<artifactId>janino</artifactId>
 			<version>3.1.0</version>
-		</dependency>
+		</dependency> -->
 				
+		
 		<!-- The database dependency files. Use it if your kettle file involves 
 			database connectivity. -->
 		<dependency>
