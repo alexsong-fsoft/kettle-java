@@ -15,7 +15,7 @@ public class KettleJavaClass {
 		String file = "src/main/resources/CONECEL.ktr";
 
 		try {
-			//StepPluginType.getInstance().getPluginFolders().add(new PluginFolder("C:\\Program Files\\data-integration\\plugins", false, true));
+			StepPluginType.getInstance().getPluginFolders().add(new PluginFolder("plugins", false, true));
 			KettleEnvironment.init();
 			TransMeta metadata = new TransMeta(file);
 			Trans trans = new Trans(metadata);
