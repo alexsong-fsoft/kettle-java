@@ -62,18 +62,7 @@
 			<groupId>org.pentaho.di.plugins</groupId>
 			<artifactId>kettle-log4j-core</artifactId>
 			<version>9.0.0.0-423</version>
-		</dependency>		
-		<dependency>
-			<groupId>pentaho</groupId>
-			<artifactId>pentaho-mongodb-plugin</artifactId>
-			<version>9.0.0.0-423</version>
-		</dependency>		
-		<dependency>
-			<groupId>pentaho</groupId>
-			<artifactId>pentaho-mongo-utils</artifactId>
-			<version>9.0.0.0-423</version>
 		</dependency>
-
 		<!-- <dependency>
 			<groupId>org.codehaus.janino</groupId>
 			<artifactId>janino</artifactId>
