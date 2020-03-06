@@ -19,7 +19,7 @@ public class KettleJavaClass {
 			KettleEnvironment.init();
 			TransMeta metadata = new TransMeta(file);
 			Trans trans = new Trans(metadata);
-
+			trans.setParameterValue("PATH_FILE", "C:\\TESTS\\MICROFILE\\CONECEL_CSC_30230_20200214_1_IN.TXT");
 			trans.execute(null);
 			trans.waitUntilFinished();
 
